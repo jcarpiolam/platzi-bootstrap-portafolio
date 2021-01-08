@@ -1,0 +1,182 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+	<link rel="stylesheet" href="index.css">
+
+    <title>Portafolio José Carlos</title>
+  </head>
+  <body data-bs-spy="scroll" data-bs-target="#navbar">
+	<!-- header -->
+	<nav id="header" class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+		<div class="container">
+			<img src="assets/logo.png"/>
+			<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+			<div class="collapse navbar-collapse" id="navbar">
+				<ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+				<li class="nav-item">
+					<a class="nav-link" aria-current="page" href="#main">Inicio</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="#projects">Experiencia</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="#aboutMe">Sobre Mí</a>
+				</li>
+				<li class="nav-item dropdown">
+					<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+					Proyectos
+					</a>
+					<ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+					<li><a class="dropdown-item" href="#">Front End</a></li>
+					<li><a class="dropdown-item" href="#">Full Stack MERN</a></li>
+					<li><hr class="dropdown-divider"></li>
+					<li><a class="dropdown-item" href="#">Aplicaciones Móviles</a></li>
+					</ul>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Contáctame</a>
+				</li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+
+	<!-- main -->
+	<section id="main">
+		<div id="carousel" class="carousel slide carousel-fade" data-bs-ride="carousel" data-bs-pause="false">
+			<div class="carousel-inner">
+				<!-- <div class="carousel-item active" data-bs-interval="4000">
+					<img src="assets/banner4.webp" class="d-block w-100" alt="banner3">
+				</div> -->
+				<div class="carousel-item active" data-bs-interval="4000">
+					<img src="assets/banner2.png" class="d-block w-100" alt="banner2">
+				</div>
+				<div class="carousel-item" data-bs-interval="4000">
+					<img src="assets/banner3.png" class="d-block w-100" alt="banner3">
+				</div>
+				<!-- <div class="carousel-item" data-bs-interval="4000">
+					<img src="assets/banner.png" class="d-block w-100" alt="banner">
+				</div> -->
+				<div class="overlay">
+					<div class="container">
+						<div class="row">
+							<div class="col">
+								<div class="col-md-6 text-center d-none d-md-block">
+									<h1>Mi portafolio</h1>
+									<p>Hola, mi nombre es José Carlos</p>
+									<button type="button" class="btn btn-outline-info">Ver proyectos</button>
+								</div>
+								<div class="col-md-6 text-center d-md-none d-sm-block">
+									<h1>José Carlos</h1>
+									<p>Front-End Developer</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+
+	<section id="projects" class="mt-3 mb-3">
+		<div class="container">
+			<div class="row">
+				<div class="col text-center text-uppercase mb-4">
+					<small>Conoce mi</small>
+					<h3>Experiencia</h3>
+					<hr/>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-12 col-md-6 col-lg-4">
+					<div class="card">
+						<img class="card-img-top" src="assets/react-native.jpg" alt="react-native">
+						<div class="card-body">
+							<h5 class="card-title">Desarrollo Móvil</h5>
+							<span class="badge bg-secondary">React Native</span>
+							<span class="badge bg-secondary">Fluter</span>
+							<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+							<a href="#" class="btn btn-info btn-bg">Ver más</a>
+						</div>
+					</div>
+				</div>
+				<div class="col-12 col-md-6 col-lg-4">
+					<div class="card">
+						<img class="card-img-top" src="assets/react.jpg" alt="react">
+						<div class="card-body">
+							<h5 class="card-title">Desarrollo Front-End</h5>
+							<span class="badge bg-secondary">React JS</span>
+							<span class="badge bg-secondary">Vue JS</span>
+							<span class="badge bg-secondary">Next JS</span>
+							<span class="badge bg-secondary">HTML5</span>
+							<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+							<a href="#" class="btn btn-info btn-bg">Ver más</a>
+						</div>
+					</div>
+				</div>
+				<div class="col-12 col-md-6 col-lg-4">
+					<div class="card">
+						<img class="card-img-top" src="assets/node.png" alt="mern">
+						<div class="card-body">
+							<h5 class="card-title">Desarrollo Backend</h5>
+							<span class="badge bg-secondary">Mongo DB</span>
+							<span class="badge bg-secondary">Node JS</span>
+							<span class="badge bg-secondary">Express</span>
+							<span class="badge bg-secondary">React JS</span>
+							<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+							<a href="#" class="btn btn-info btn-bg">Ver más</a>
+						</div>
+					</div>
+				</div>
+			</div>
+			<hr/>
+		</div>  
+	</section>
+
+	<!-- footer -->
+	<footer id="footer" class="pt-4 pb-4">
+		<div class="container">
+			<div class="row text-center">
+				<div class="col-12 col-md">
+					<a href="#">Preguntas frecuentes</a>
+				</div>
+				<div class="col-12 col-md">
+					<a href="#">Contáctanos</a>
+				</div>
+				<div class="col-12 col-md">
+					<a href="#">Conferencias</a>
+				</div>
+				<div class="col-12 col-md">
+					<a href="#">Privacidad</a>
+				</div>
+				<div class="col-12 col-md">
+					<a href="#">Términos y Condiciones</a>
+				</div>
+				<div class="col-12 col-md">
+					<a href="#">Estudiantes</a>
+				</div>
+			</div>
+		</div>
+	</footer>
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js" integrity="sha384-q2kxQ16AaE6UbzuKqyBE9/u/KzioAlnx2maXQHiDX9d4/zp8Ok3f+M7DPm+Ib6IU" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-pQQkAEnwaBkjpqZ8RU1fF1AKtTcHJwFl3pblpTlHXybJjHpMYo79HY3hIi4NKxyj" crossorigin="anonymous"></script>
+    -->
+  </body>
+</html>

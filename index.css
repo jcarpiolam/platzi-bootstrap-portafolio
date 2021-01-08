@@ -1,0 +1,59 @@
+#header img {
+    width: 60px;
+}
+
+#main .carousel-inner img {
+    max-height: 60vh;
+    object-fit: cover;
+    filter: grayscale(70%);
+}
+
+#carousel {
+    position: relative;
+}
+#carousel .overlay {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #fff;
+}
+
+.btn-bg {
+    background: linear-gradient(90deg, #fad961 0%, #f76b1c 100%);
+    color: #fff;
+    border: none;
+}
+.btn-bg:hover {
+    background: linear-gradient(90deg, #fad961 0%, #f76b1c 100%);
+    color: #212529;
+    border: none;
+}
+
+#projects {
+    padding: 2em;
+}
+#projects .container .card {
+    margin-bottom: 1em;
+}
+#projects .container img {
+    height: 25vh;
+}
+
+#footer {
+    /* background: linear-gradient(45deg, #85ffbd 0%, #fffb7d 100%); */
+    background: linear-gradient(90deg, #fad961 0%, #f76b1c 100%);
+}
+#footer a {
+    color: #fff;
+    text-decoration: none;
+}
+#footer a:hover {
+    text-decoration: underline;
+}
